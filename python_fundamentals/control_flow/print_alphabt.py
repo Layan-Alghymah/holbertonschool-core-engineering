@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-
 alphabet = ""
 
 for i in range(97, 123):
@@ -7,4 +6,4 @@ for i in range(97, 123):
     if letter != "e" and letter != "q":
         alphabet += letter
 
-print(alphabet)
+print("{}".format(alphabet))
